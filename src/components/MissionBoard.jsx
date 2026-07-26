@@ -1,7 +1,6 @@
 import React, { useMemo, memo } from 'react';
-
-const START_DATE  = '2026-07-05';
-const END_DATE    = '2026-10-03';
+const START_DATE = '2026-07-27';
+const END_DATE   = '2026-10-24';
 const TOTAL_DAYS  = 90;
 const MS_PER_DAY  = 24 * 60 * 60 * 1000;
 
@@ -47,8 +46,8 @@ const MissionBoard = memo(function MissionBoard({ logs = [], compact = false }) 
   return (
     <section className={`mission-board ${compact ? 'compact-mission' : 'full-mission'}`}>
       <div className="mission-topline">
-        <span>START: 5 JULY</span>
-        <span>END: 3 OCT 2026</span>
+       <span>START: 27 JULY</span>
+<span>END: 24 OCT 2026</span>
       </div>
 
       <div className="mission-panel dashboard-card">
